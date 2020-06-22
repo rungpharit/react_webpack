@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { addPen , buyPen } from '../../redux/pen/penAction'
 
+import './pen.scss'
+
 class Pen extends Component {
   render() {
     return (
-      <div >
+      <div className="container-pen">
         <h2>Number of Pens - {this.props.numOfPens}</h2>
-        <div>
+        <div className="boxButton">
           <button onClick={() => {this.props.addPen()}}>Add Pen</button>
           <button onClick={() => {this.props.buyPen()}}>Buy Pen</button>
         </div>

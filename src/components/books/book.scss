@@ -1,0 +1,12 @@
+@import '../styles/index.scss';
+
+.container-book{
+  background-color: $bgc-green;
+  color: $btn-text-color;
+  
+  .boxButton{
+    button{
+      @extend %btn;
+    }
+  }
+}

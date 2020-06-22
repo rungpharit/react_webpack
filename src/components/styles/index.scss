@@ -1,0 +1,16 @@
+$btn-text-color:white;
+$bgc-red:#FF6961;
+$bgc-green:#456774;
+
+%btn{
+  border-style: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin:3px;
+  background-color: #333333;
+  color: $btn-text-color;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+}

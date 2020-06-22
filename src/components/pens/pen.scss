@@ -1,0 +1,12 @@
+@import '../styles/index.scss';
+
+.container-pen{
+  background-color: $bgc-red;
+  color: $btn-text-color;
+
+  .boxButton{
+    button{
+      @extend %btn;
+    }
+  }
+}
