@@ -12,7 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
@@ -22,6 +24,8 @@
     "css-loader": "^3.6.0",
     "html-webpack-plugin": "^4.3.0",
     "node-sass": "^4.14.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
