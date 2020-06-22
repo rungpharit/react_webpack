@@ -1,11 +1,14 @@
 import React , { Component } from 'react';
-import '../styles/index.scss';
+
+import Book from './books'
+import Pen from './pens'
 
 class App extends Component {
   render(){
     return (
-      <div className="container">
-        Welcome to react with sass
+      <div>
+        <Book/>
+        <Pen/>
       </div>
     )
   }
