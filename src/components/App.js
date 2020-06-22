@@ -1,10 +1,11 @@
 import React , { Component } from 'react';
+import '../styles/index.scss';
 
 class App extends Component {
   render(){
     return (
-      <div>
-        Welcome to react with webpack 
+      <div className="container">
+        Welcome to react with sass
       </div>
     )
   }
